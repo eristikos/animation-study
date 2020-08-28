@@ -1,2 +1,0 @@
-# animation-study
- test
