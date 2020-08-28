@@ -94,9 +94,9 @@ while run:
         left = False
         right = False
         if keys[pygame.K_LEFT]:
-            herox -= vel/2
+            herox -= vel//2
         elif keys[pygame.K_RIGHT]:
-            herox += vel/2
+            herox += vel//2
     elif keys[pygame.K_UP]:
         heroy-= vel
         down = False
@@ -104,9 +104,9 @@ while run:
         left = False
         right = False
         if keys[pygame.K_RIGHT]:
-            herox += vel/2
+            herox += vel//2
         elif keys[pygame.K_LEFT]:
-            herox -= vel/2
+            herox -= vel//2
     elif keys[pygame.K_LEFT]:
         herox -= vel
         down = False
